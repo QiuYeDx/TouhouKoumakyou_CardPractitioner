@@ -4,6 +4,7 @@
 
 东方红魔乡v1.02符卡练习器，适用于最新版Windows10/11。
 提供**Player、Bomb、Scores**修改以及**人物无敌**功能。
+
 示例：
 ![运行示例](/src/example.png)
 ## 制作流程：
