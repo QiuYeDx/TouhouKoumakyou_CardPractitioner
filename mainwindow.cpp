@@ -145,7 +145,7 @@ void MainWindow::setWD(){
     }else{
         printf("succeeded!");
 
-        flag_wd = btn_setWD->text().compare("开启无敌")==0?btn_setWD->setText("关闭无敌"),3:0;
+        flag_wd = btn_setWD->text().compare("开启无敌")==0?(btn_setWD->setText("关闭无敌"),3):(btn_setWD->setText("开启无敌"),0);
         while(flag_wd){
             DWORD wd = 3;
             DWORD addr = 0x0040B218;
